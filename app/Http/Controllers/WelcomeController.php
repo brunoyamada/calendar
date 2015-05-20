@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Calendar\Http\Controllers\CalendarController;
 
 class WelcomeController extends Controller {
 
