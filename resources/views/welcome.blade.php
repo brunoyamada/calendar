@@ -2,7 +2,7 @@
 	<head>
 		<title>Laravel</title>
 		
-		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+                <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
 
 		<style>
 			body {
@@ -42,6 +42,12 @@
 			<div class="content">
 				<div class="title">Laravel 5</div>
 				<div class="quote">{{ Inspiring::quote() }}</div>
+                                <nav class='nav navbar nav-pills'>
+                                    <ul class="nav nav-tabs nav-justified">
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About</a></li>
+                                    </ul>
+                                </nav>
 			</div>
 		</div>
 	</body>
